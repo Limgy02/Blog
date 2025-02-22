@@ -6,6 +6,14 @@
 
 ---
 
+[Linux 相关](ComputerRelated/Linux/index.md)
+
+[Windows 相关](ComputerRelated/Windows/index.md)
+
+[其他计算机相关内容](ComputerRelated/Other/index.md)
+
+---
+
 ## 归档
 
 这部分内容被我归档为“旧文章”，可以 [前往这里](OldPosts/index.md) 进行查看。
