@@ -11,3 +11,5 @@
 [在英文版本的 Word 中首行缩进 2 个字符](1-word-first-line-by-2ch/index.md)
 
 [删除 Windows 11 中右键菜单的 AMD 驱动选项](2-remove-amd-menu/index.md)
+
+[双系统删除 Linux](3-remove-linux/index.md)
