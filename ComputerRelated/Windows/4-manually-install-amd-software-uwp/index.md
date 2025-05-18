@@ -4,7 +4,7 @@
 
 ---
 
-使用 AMD 集成显卡的笔记本用户在重装系统后，如果选择让 Windows 自动接管显卡驱动程序的安装，或使用笔记本厂商官网提供的驱动程序，很可能会出现 AMD Software 没有被安装的情况。
+使用 AMD 集成显卡的笔记本用户在重装微软原版（或称非 OEM 定制）系统后，如果选择让 Windows 自动接管显卡驱动程序的安装，或使用笔记本厂商官网提供的驱动程序，很可能会出现 AMD Software 没有被安装的情况。
 
 部分情形下，Microsoft Store 会自动安装 AMD Software，但更多的情况是 AMD Software 将永远不会被自动安装，对使用造成了一定影响。
 
@@ -26,13 +26,13 @@ DCH (Declarative, Componentized & Hardware Support App (HSA)) 是微软从 Windo
 
 ### 如果你没有驱动安装程序
 
-可以使用 [DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer/releases) 软件，搜索 `UWPPair`，选择与当前版本驱动程序日期最接近的一个，右键导出驱动程序，获得 `uwppair.conf` 文件，同样使用文本编辑器查看其内容。
+可以使用 [DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer/releases) 软件，搜索 `UWPPair`，选择与当前版本驱动程序日期最接近的一个，右键导出驱动程序，获得 `uwppair.inf` 文件，同样使用文本编辑器查看其内容。
 
 ![](image.png)
 
 ---
 
-在 `UWPPair.conf` 中，查找 `[AMDRadeonsettingsSoftware]` 字段，内容如下：
+在 `UWPPair.inf` 中，查找 `[AMDRadeonsettingsSoftware]` 字段，内容如下：
 
 ```inf
 [AMDRadeonsettingsSoftware]
@@ -47,13 +47,13 @@ SoftwareVersion=10.23.20001.0
 
 打开 [Microsoft Store - Generation Project](https://store.rg-adguard.net/)，搜索 9NZ1BJQN6BHL，搜索类型为 ProductID。
 
-搜索后会出现一系列结果，主要关注文件名为 `AdvancedMicroDevicesInc-2.AMDRadeonSoftware_xx.xx.xxxxx.x_x64__0a9344xs7nr4m.appx` 的文件，其中 `xx.xx.xxxxx.x` 与上一节查到的 SoftwareVersion 相匹配，如果没有完全一样的，请选择最相近的版本（一般都是其中 5 位数 xxxxx 的后两位不同）。
+搜索后会出现一系列结果，主要关注文件名为 `AdvancedMicroDevicesInc-2.AMDRadeonSoftware_xx.xx.xxxxx.x_x64__0a9344xs7nr4m.appx | .msix` 的文件，其中 `xx.xx.xxxxx.x` 与上一节查到的 SoftwareVersion 相匹配，如果没有完全一样的，请选择最相近的版本（一般都是其中 5 位数 xxxxx 的后两位不同）。
 
 比如上一节的 SoftwareVersion 值为 10.23.20001.0，可以选择的版本是 10.23.20030.0.
 
 ## 安装
 
-下载完成的 `*.msix` 文件直接双击打开即可完成安装。
+下载完成的 `*.appx | *.msix` 文件直接双击打开即可完成安装。
 
 ---
 
