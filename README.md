@@ -6,6 +6,8 @@
 
 ---
 
+[MacOS 相关](ComputerRelated/MacOS/index.md)
+
 [Linux 相关](ComputerRelated/Linux/index.md)
 
 [Windows 相关](ComputerRelated/Windows/index.md)
