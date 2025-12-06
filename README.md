@@ -4,7 +4,7 @@
 
 基本上都是自己的折腾记录，没什么技术含量。
 
----
+## 计算机
 
 [MacOS 相关](ComputerRelated/MacOS/index.md)
 
@@ -13,6 +13,10 @@
 [Windows 相关](ComputerRelated/Windows/index.md)
 
 [其他计算机相关内容](ComputerRelated/Other/index.md)
+
+## PCB
+
+[PADs 相关](PCB/PADs/index.md)
 
 ---
 
