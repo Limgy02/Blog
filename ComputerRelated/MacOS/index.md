@@ -9,3 +9,5 @@
 [macOS 运行 Minecraft 光影最佳实践](2-mac-shaders/index.md)
 
 [在 macOS 上开发 STM32（使用CLion）](3-stm32-on-macos/index.md)
+
+[Mac mini 显示器连接 HDMI 还是 DisplayPort](4-hdmi-or-dp/index.md)
