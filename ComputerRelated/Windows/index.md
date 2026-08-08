@@ -15,3 +15,5 @@
 [双系统删除 Linux](3-remove-linux/index.md)
 
 [手动安装 UWP 版本 AMD Software](4-manually-install-amd-software-uwp/index.md)
+
+[安装 Ubuntu Server，并使用 Vmware 的 NAT 网络配置端口转发，从局域网内其他电脑 ssh 访问](5-vmware-nat-ssh/index.md)
